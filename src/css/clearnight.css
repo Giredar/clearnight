@@ -1,0 +1,144 @@
+:root {
+  --title-titleFont: "Rubik Dirt", system-ui;
+  --inner-titlefont: "BBH Sans Hegarty", sans-serif;
+}
+
+.headingFont {
+  /* font-family: "BBH Sans Bartle", sans-serif; */
+  /* font-family: "Rubik Dirt", system-ui; */
+  /* font-family: "BBH Sans Hegarty" , sans-serif ; */
+  font-family: var(--title-titleFont);
+
+  font-style: normal;
+}
+
+.rubik-dirt-regular {
+  font-family: "Rubik Dirt", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  /* font-family: "BBH Sans Hegarty", sans-serif; */
+  font-style: normal;
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  color: rgb(59, 59, 59);
+  background-color: #f9f6ee;
+}
+.content {
+  padding: 20px;
+}
+
+.logo {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+#accLogo {
+  width: 90px;
+  height: 90px;
+}
+.itemTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemTitleH1 {
+  background-image: linear-gradient(to right, red, black);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 2.3rem;
+  /* transition: background-image 0.5s ease-in-out; */
+}
+
+.itemTitleH1:hover {
+  background-image: linear-gradient(to right, black, red);
+}
+
+.itemTitleH2 {
+  background-image: linear-gradient(to right, red, black, rgb(219, 219, 22));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 1.6rem;
+}
+
+.itemTitleH2:hover {
+  background-image: linear-gradient(to left, red, black, rgb(219, 219, 22));
+}
+
+h3 :not(span) {
+  font-family: var(--inner-titlefont);
+  font-weight: 100;
+  font-size: 1.2rem;
+
+  background-image: linear-gradient(
+    to right,
+    rgb(236, 134, 134),
+    rgb(24, 21, 21),
+    rgb(201, 201, 54)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+h3 {
+  margin-bottom: 0.5rem;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+ol {
+  list-style-position: inside;
+}
+
+.itemSymbol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 8px;
+}
+
+.itemMarketed {
+  margin-bottom: 20px;
+}
+
+.contactDiv {
+  border: 10px solid #b8b7b5;
+  padding: 10px;
+}
+
+@media screen and (max-width: 450px) {
+  .itemTitleH1 {
+    font-size: 2rem;
+  }
+  .itemTitleH2 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+}
+
+.batchdetailsContainer {
+  line-height: 30px;
+  margin-top: 20px;
+}

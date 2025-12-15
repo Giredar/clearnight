@@ -1,0 +1,13 @@
+<svg width="300" height="300" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="50,0 100,50 50,100 0,50" 
+           stroke="black" stroke-width="3" fill="none"/>
+
+  <polygon points="50,0 100,50 50,50 0,50" 
+           fill="white" stroke="none"/>
+
+  <polygon points="0,50 50,50 100,50 50,100" 
+           fill="#FFFF00" stroke="none"/> <text x="50%" y="40%" font-family="Arial, sans-serif" font-size="12" 
+        font-weight="bold" fill="red" text-anchor="middle" alignment-baseline="middle">
+    POISON
+  </text>
+</svg>
